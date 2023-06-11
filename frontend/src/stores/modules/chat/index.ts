@@ -25,7 +25,11 @@ export const useChatStore = defineStore(
     const sydneyConfigs = ref<SydneyConfig[]>([
       {
         baseUrl: 'https://sydney.bing.com',
-        label: 'Bing 官方',
+        label: 'bing 官方',
+      },
+       {
+        baseUrl: 'https://www.tengfei.ml',
+        label: '腾飞私人专线',
       },
       {
         baseUrl: 'https://sydney.vcanbb.chat',
